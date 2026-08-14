@@ -429,13 +429,33 @@
         "uuid": "9a4457e8-cc73-4b75-ac20-82cc64952613"
       }
     ],
-    "used_designators": "TH1,RV1-2,IC1,J1-4,#PWR1-32,D1-4,C1-3,R1-14,U1-8,Q1-8",
+    "used_designators": "T1-2,TH1,RV1-2,IC1,J1-4,#PWR1-41,D1-11,C1-5,R1-19,U1-10,Q1-8",
     "variants": []
   },
   "sheets": [
     [
       "9a4457e8-cc73-4b75-ac20-82cc64952613",
       "Root"
+    ],
+    [
+      "9983a37e-d578-4b38-a394-f60aff5d4a98",
+      "PWM"
+    ],
+    [
+      "03425973-106e-4fad-b4b3-53fa28adf516",
+      "OTP"
+    ],
+    [
+      "6eb0d11a-b8cc-4b9f-9b90-475ada58642f",
+      "Bridge"
+    ],
+    [
+      "835602cd-34fc-474f-ac09-a604a0ab0416",
+      "Power"
+    ],
+    [
+      "10b8eff6-3905-427d-a5f5-be51ccaa8ebd",
+      "Sense"
     ]
   ],
   "text_variables": {},

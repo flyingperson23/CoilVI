@@ -5,15 +5,41 @@
 	(uuid "9a4457e8-cc73-4b75-ac20-82cc64952613")
 	(paper "A5")
 	(lib_symbols)
+	(junction
+		(at 107.95 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59d46ae3-22ac-4b95-b0a6-2c3a8c0eebf7")
+	)
 	(wire
 		(pts
-			(xy 99.06 74.93) (xy 114.3 74.93)
+			(xy 99.06 95.25) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "08d08a0a-d352-4710-8163-c3f712999015")
+	)
+	(wire
+		(pts
+			(xy 107.95 92.71) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156c483d-de78-4818-965a-bef7850d6c5a")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288a8eee-a3f2-454c-bb68-d3a7c4227281")
 	)
 	(wire
 		(pts
@@ -34,6 +60,26 @@
 			(type default)
 		)
 		(uuid "37bb0646-28c0-436d-b2b7-050b9db8152d")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969cac23-50f0-4cee-9501-c1dc22e34842")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac99e78-ac62-4ffd-a0d6-c4068dd58979")
 	)
 	(wire
 		(pts
@@ -77,6 +123,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 69.85) (xy 114.3 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60acd69-4403-4ad8-960b-75b27f78188a")
+	)
+	(wire
+		(pts
 			(xy 109.22 60.96) (xy 99.06 60.96)
 		)
 		(stroke
@@ -96,8 +152,8 @@
 		(uuid "fdb920cd-3718-413d-b009-370da2a12d99")
 	)
 	(sheet
-		(at 86.36 71.12)
-		(size 12.7 7.62)
+		(at 86.36 88.9)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -112,7 +168,7 @@
 		)
 		(uuid "03425973-106e-4fad-b4b3-53fa28adf516")
 		(property "Sheetname" "OTP"
-			(at 86.36 70.4084 0)
+			(at 86.36 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -123,7 +179,7 @@
 			)
 		)
 		(property "Sheetfile" "otp.kicad_sch"
-			(at 86.36 79.3246 0)
+			(at 86.36 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -134,8 +190,18 @@
 			)
 		)
 		(pin "~{EN}" input
-			(at 99.06 74.93 0)
+			(at 99.06 95.25 0)
 			(uuid "a890d344-f3ce-4886-992d-d1785597baec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHARGING" input
+			(at 99.06 92.71 0)
+			(uuid "8e5e7803-986f-461a-8515-015b218bba65")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +219,7 @@
 	)
 	(sheet
 		(at 86.36 58.42)
-		(size 12.7 7.62)
+		(size 12.7 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -179,7 +245,7 @@
 			)
 		)
 		(property "Sheetfile" "sense.kicad_sch"
-			(at 86.36 66.6246 0)
+			(at 86.36 75.5146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -202,6 +268,26 @@
 		(pin "CT-" input
 			(at 99.06 63.5 0)
 			(uuid "cd6cc6aa-44f7-4576-aff6-37f56b0a3ded")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VSENSE" input
+			(at 99.06 67.31 0)
+			(uuid "6dba7f8b-d7af-4cbd-a23e-d00a5e6637fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHARGING" input
+			(at 99.06 69.85 0)
+			(uuid "e39647f3-f548-4489-936f-a3f29adbb54c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +437,7 @@
 	)
 	(sheet
 		(at 114.3 40.64)
-		(size 20.32 38.1)
+		(size 20.32 58.42)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -377,7 +463,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm.kicad_sch"
-			(at 114.3 79.3246 0)
+			(at 114.3 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -398,7 +484,7 @@
 			)
 		)
 		(pin "VSENSE" input
-			(at 114.3 63.5 180)
+			(at 114.3 67.31 180)
 			(uuid "cb8a5904-d827-4b4c-8912-fc75344b2e9d")
 			(effects
 				(font
@@ -418,7 +504,7 @@
 			)
 		)
 		(pin "CHARGING" input
-			(at 114.3 60.96 180)
+			(at 114.3 69.85 180)
 			(uuid "678343c8-4989-4de8-85eb-cd29b8e9134c")
 			(effects
 				(font
@@ -428,7 +514,7 @@
 			)
 		)
 		(pin "ISENSE" input
-			(at 114.3 66.04 180)
+			(at 114.3 72.39 180)
 			(uuid "49923813-b8aa-4d04-b82a-f575f1a6800d")
 			(effects
 				(font
@@ -438,7 +524,7 @@
 			)
 		)
 		(pin "~{EN}" input
-			(at 114.3 74.93 180)
+			(at 114.3 95.25 180)
 			(uuid "dae2e287-b1d7-49d8-ad43-71c65e991936")
 			(effects
 				(font

@@ -6308,28 +6308,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ad47031-d91b-42f2-a9a7-3f1979dd8bca")
+			(uuid "7ad47031-d91b-42f2-a9a7-3f1979dd8bcb")
 		)
 		(pin "5"
-			(uuid "43987054-8fa1-406c-b4cf-0afa0e2cc83e")
+			(uuid "43987054-8fa1-406c-b4cf-0afa0e2cc83f")
 		)
 		(pin "6"
-			(uuid "0f4dfe6e-05f7-49fc-8aac-4142db972e95")
+			(uuid "0f4dfe6e-05f7-49fc-8aac-4142db972e96")
 		)
 		(pin "2"
-			(uuid "a8fc2876-749d-4992-bbd3-de10420017ee")
+			(uuid "a8fc2876-749d-4992-bbd3-de10420017ef")
 		)
 		(pin "3"
-			(uuid "059f8228-766e-439a-b8a9-301c082e0815")
+			(uuid "059f8228-766e-439a-b8a9-301c082e0816")
 		)
 		(pin "7"
-			(uuid "8f689c6b-ff1b-4b40-9f6e-3079d2905a84")
+			(uuid "8f689c6b-ff1b-4b40-9f6e-3079d2905a85")
 		)
 		(pin "4"
-			(uuid "891c3e03-c7da-4052-ad29-74b8e254386e")
+			(uuid "891c3e03-c7da-4052-ad29-74b8e254386f")
 		)
 		(pin "8"
-			(uuid "2fce7598-b6ac-4774-9dcd-227ee327e66c")
+			(uuid "2fce7598-b6ac-4774-9dcd-227ee327e66d")
 		)
 		(instances
 			(project "PFC"

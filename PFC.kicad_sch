@@ -13,6 +13,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05790143-711e-49f3-b232-09be2c0ea1f0")
+	)
+	(wire
+		(pts
 			(xy 99.06 95.25) (xy 114.3 95.25)
 		)
 		(stroke
@@ -143,6 +153,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9abb15-73c1-409b-8c46-389a46ac05b4")
+	)
+	(wire
+		(pts
 			(xy 111.76 48.26) (xy 99.06 48.26)
 		)
 		(stroke
@@ -152,8 +172,8 @@
 		(uuid "fdb920cd-3718-413d-b009-370da2a12d99")
 	)
 	(sheet
-		(at 86.36 88.9)
-		(size 12.7 10.16)
+		(at 85.09 88.9)
+		(size 13.97 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -168,7 +188,7 @@
 		)
 		(uuid "03425973-106e-4fad-b4b3-53fa28adf516")
 		(property "Sheetname" "OTP"
-			(at 86.36 88.1884 0)
+			(at 85.09 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -179,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "otp.kicad_sch"
-			(at 86.36 99.6446 0)
+			(at 85.09 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -218,8 +238,8 @@
 		)
 	)
 	(sheet
-		(at 86.36 58.42)
-		(size 12.7 16.51)
+		(at 85.09 58.42)
+		(size 13.97 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -234,7 +254,7 @@
 		)
 		(uuid "10b8eff6-3905-427d-a5f5-be51ccaa8ebd")
 		(property "Sheetname" "Sense"
-			(at 86.36 57.7084 0)
+			(at 85.09 57.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -245,7 +265,7 @@
 			)
 		)
 		(property "Sheetfile" "sense.kicad_sch"
-			(at 86.36 75.5146 0)
+			(at 85.09 78.0546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -253,26 +273,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "CT+" input
-			(at 99.06 60.96 0)
-			(uuid "03579560-033e-41b7-9323-b609049902b4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "CT-" input
-			(at 99.06 63.5 0)
-			(uuid "cd6cc6aa-44f7-4576-aff6-37f56b0a3ded")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "VSENSE" input
@@ -295,6 +295,46 @@
 				(justify right)
 			)
 		)
+		(pin "I_REF" input
+			(at 99.06 63.5 0)
+			(uuid "10f18caa-6adf-4c18-b471-b41ae93dc91a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_SENSE" input
+			(at 99.06 60.96 0)
+			(uuid "7eb4f643-613e-444c-a273-0af933bc6486")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISENSE_CHG" input
+			(at 99.06 74.93 0)
+			(uuid "ce6aa291-4b73-43e2-bf1f-78704316a9e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ISENSE_PFC" input
+			(at 99.06 72.39 0)
+			(uuid "5cce0d9e-5073-4e9a-be26-2fe00c614e35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PFC"
 				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613"
@@ -304,8 +344,8 @@
 		)
 	)
 	(sheet
-		(at 86.36 40.64)
-		(size 12.7 12.7)
+		(at 85.09 40.64)
+		(size 13.97 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -320,7 +360,7 @@
 		)
 		(uuid "6eb0d11a-b8cc-4b9f-9b90-475ada58642f")
 		(property "Sheetname" "Bridge"
-			(at 86.36 39.9284 0)
+			(at 85.09 39.9284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -331,7 +371,7 @@
 			)
 		)
 		(property "Sheetfile" "bridge.kicad_sch"
-			(at 86.36 53.9246 0)
+			(at 85.09 53.9246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -361,9 +401,9 @@
 				(justify right)
 			)
 		)
-		(pin "CT-" input
+		(pin "I_REF" input
 			(at 99.06 48.26 0)
-			(uuid "5f3bd29f-efc7-4f57-ae73-58d703b84121")
+			(uuid "c41d2764-bc8d-4b40-85e1-d734f30dc697")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,9 +411,9 @@
 				(justify right)
 			)
 		)
-		(pin "CT+" input
+		(pin "I_SENSE" input
 			(at 99.06 50.8 0)
-			(uuid "529d24a7-1523-402c-9e3d-f1c779a0e1c6")
+			(uuid "68573f8e-2cfe-40ce-ab2a-1f58bb6aaf55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -513,9 +553,9 @@
 				(justify left)
 			)
 		)
-		(pin "ISENSE" input
-			(at 114.3 72.39 180)
-			(uuid "49923813-b8aa-4d04-b82a-f575f1a6800d")
+		(pin "~{EN}" input
+			(at 114.3 95.25 180)
+			(uuid "dae2e287-b1d7-49d8-ad43-71c65e991936")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,9 +563,19 @@
 				(justify left)
 			)
 		)
-		(pin "~{EN}" input
-			(at 114.3 95.25 180)
-			(uuid "dae2e287-b1d7-49d8-ad43-71c65e991936")
+		(pin "ISENSE_CHG" input
+			(at 114.3 74.93 180)
+			(uuid "444d9d98-b40c-438c-9135-3c44c18e648e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ISENSE_PFC" input
+			(at 114.3 72.39 180)
+			(uuid "bfef8610-c0c0-4230-bec3-c163c456aa42")
 			(effects
 				(font
 					(size 1.27 1.27)

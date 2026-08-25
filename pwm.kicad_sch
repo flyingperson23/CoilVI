@@ -4054,6 +4054,12 @@
 		(uuid "0e75c535-b5c2-4114-b98d-234676082832")
 	)
 	(junction
+		(at 57.15 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "356ba478-b096-42b4-9649-c413b8b8a8d3")
+	)
+	(junction
 		(at 128.27 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4136,12 +4142,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddcbd7ae-6d83-4cd6-8d9f-55abec662cc1")
-	)
-	(junction
-		(at 57.15 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f53ab693-eee1-42f2-91f6-4686f303f6f0")
 	)
 	(no_connect
 		(at 99.06 120.65)
@@ -4449,6 +4449,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 133.35) (xy 73.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6dda23-68fb-4dac-b0b8-3af33e85dd06")
+	)
+	(wire
+		(pts
+			(xy 54.61 135.89) (xy 73.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4c3533-eb28-4942-a83c-afd496a9f3cd")
+	)
+	(wire
+		(pts
 			(xy 226.06 80.01) (xy 226.06 92.71)
 		)
 		(stroke
@@ -4596,26 +4616,6 @@
 			(type default)
 		)
 		(uuid "71cc8e9e-2141-43be-b347-874647134ee2")
-	)
-	(wire
-		(pts
-			(xy 57.15 133.35) (xy 57.15 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738dde8f-5820-4800-ab21-38294bc7990c")
-	)
-	(wire
-		(pts
-			(xy 73.66 135.89) (xy 54.61 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74755390-6564-48cc-8609-5bc994ab4540")
 	)
 	(wire
 		(pts
@@ -5149,6 +5149,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 133.35) (xy 57.15 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1a67b1-2aa7-4c01-8094-62a51b4c2065")
+	)
+	(wire
+		(pts
 			(xy 83.82 148.59) (xy 83.82 149.86)
 		)
 		(stroke
@@ -5206,16 +5216,6 @@
 			(type default)
 		)
 		(uuid "f8e46fd4-8288-4e7d-add0-db25613d945d")
-	)
-	(wire
-		(pts
-			(xy 73.66 133.35) (xy 57.15 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8f942ce-d6d5-41bb-81d3-eaeeade84db4")
 	)
 	(wire
 		(pts
@@ -5307,16 +5307,6 @@
 		)
 		(uuid "52972f05-8a7b-4839-addb-5dbfc0dde526")
 	)
-	(label "CHARGE_PWM"
-		(at 58.42 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5801b617-e028-4559-8d58-bb9dcf253169")
-	)
 	(label "RESET"
 		(at 226.06 50.8 0)
 		(effects
@@ -5328,7 +5318,7 @@
 		(uuid "63f11826-b286-42c3-81c9-6fbb5cc308f5")
 	)
 	(label "PFC_PWM"
-		(at 58.42 135.89 0)
+		(at 54.61 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5336,6 +5326,16 @@
 			(justify left bottom)
 		)
 		(uuid "a41c568a-7c72-43aa-8afe-daf0d9b97ed2")
+	)
+	(label "CHG_PWM"
+		(at 57.15 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc20aa88-ab95-4db6-81fe-1b56c5d15e0f")
 	)
 	(global_label "CHSW-"
 		(shape input)
@@ -6487,28 +6487,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdb9428b-da95-4adb-8373-171bf37cd58d")
+			(uuid "cdb9428b-da95-4adb-8373-171bf37cd58e")
 		)
 		(pin "2"
-			(uuid "ad7c935f-5e67-44b2-9060-5cb7627a3eed")
+			(uuid "ad7c935f-5e67-44b2-9060-5cb7627a3eee")
 		)
 		(pin "5"
-			(uuid "810c3abd-da1b-474d-b857-bdda8586542d")
+			(uuid "810c3abd-da1b-474d-b857-bdda8586542e")
 		)
 		(pin "3"
-			(uuid "4b5b38ed-f817-4203-921c-de0ecae527a0")
+			(uuid "4b5b38ed-f817-4203-921c-de0ecae527a1")
 		)
 		(pin "8"
-			(uuid "13368050-fb44-49cd-8ad3-76cbdc4f5880")
+			(uuid "13368050-fb44-49cd-8ad3-76cbdc4f5881")
 		)
 		(pin "4"
-			(uuid "5a051cf6-f336-4ef5-9067-848b429e9d78")
+			(uuid "5a051cf6-f336-4ef5-9067-848b429e9d79")
 		)
 		(pin "7"
-			(uuid "03569963-a45c-47ac-b774-0e035d47da13")
+			(uuid "03569963-a45c-47ac-b774-0e035d47da14")
 		)
 		(pin "6"
-			(uuid "3101af1b-45fb-41f4-9197-2ccf08f9a8ac")
+			(uuid "3101af1b-45fb-41f4-9197-2ccf08f9a8ad")
 		)
 		(instances
 			(project "PFC"
@@ -6741,28 +6741,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdb9428b-da95-4adb-8373-171bf37cd58d")
+			(uuid "cdb9428b-da95-4adb-8373-171bf37cd58f")
 		)
 		(pin "2"
-			(uuid "ad7c935f-5e67-44b2-9060-5cb7627a3eed")
+			(uuid "ad7c935f-5e67-44b2-9060-5cb7627a3eef")
 		)
 		(pin "5"
-			(uuid "810c3abd-da1b-474d-b857-bdda8586542d")
+			(uuid "810c3abd-da1b-474d-b857-bdda8586542f")
 		)
 		(pin "3"
-			(uuid "4b5b38ed-f817-4203-921c-de0ecae527a0")
+			(uuid "4b5b38ed-f817-4203-921c-de0ecae527a2")
 		)
 		(pin "8"
-			(uuid "13368050-fb44-49cd-8ad3-76cbdc4f5880")
+			(uuid "13368050-fb44-49cd-8ad3-76cbdc4f5882")
 		)
 		(pin "4"
-			(uuid "5a051cf6-f336-4ef5-9067-848b429e9d78")
+			(uuid "5a051cf6-f336-4ef5-9067-848b429e9d7a")
 		)
 		(pin "7"
-			(uuid "03569963-a45c-47ac-b774-0e035d47da13")
+			(uuid "03569963-a45c-47ac-b774-0e035d47da15")
 		)
 		(pin "6"
-			(uuid "3101af1b-45fb-41f4-9197-2ccf08f9a8ac")
+			(uuid "3101af1b-45fb-41f4-9197-2ccf08f9a8ae")
 		)
 		(instances
 			(project "PFC"

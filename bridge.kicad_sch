@@ -1937,6 +1937,12 @@
 		(uuid "2ad4d41f-86d8-4092-a16d-f36eab6c6fde")
 	)
 	(junction
+		(at 80.01 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "341384a3-e96e-4425-a3a7-9940b8d38173")
+	)
+	(junction
 		(at 156.21 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1959,6 +1965,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7591df7d-877b-4036-8a49-beb850b63484")
+	)
+	(junction
+		(at 80.01 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8055a721-6e66-4978-b0ac-60b5b4f4b547")
 	)
 	(junction
 		(at 91.44 80.01)
@@ -1989,6 +2001,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f517b53-e801-4071-8ec8-783b5810dc4a")
+	)
+	(junction
+		(at 193.04 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a09ede9e-5e25-43ca-84ac-6c362af3ad29")
 	)
 	(junction
 		(at 168.91 58.42)
@@ -2037,6 +2055,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e09f4529-408c-4d0b-8bbe-8467d000080e")
+	)
+	(junction
+		(at 199.39 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e19fdb60-55a8-439b-85b9-4cc057cc086b")
 	)
 	(junction
 		(at 156.21 90.17)
@@ -2258,6 +2282,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 107.95) (xy 200.66 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f541de-7bc0-44ff-8ec0-cde9cd9026f0")
+	)
+	(wire
+		(pts
 			(xy 163.83 101.6) (xy 163.83 97.79)
 		)
 		(stroke
@@ -2405,6 +2439,16 @@
 			(type default)
 		)
 		(uuid "71bfea90-41ec-441c-83d2-4c2666b4ee58")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720310c7-5149-439b-9e6b-b2d6f6813931")
 	)
 	(wire
 		(pts
@@ -2648,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 78.74) (xy 193.04 80.01)
+			(xy 199.39 78.74) (xy 199.39 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2695,6 +2739,26 @@
 			(type default)
 		)
 		(uuid "c141f214-f1ee-48b0-a386-4806d390c4d5")
+	)
+	(wire
+		(pts
+			(xy 80.01 97.79) (xy 80.01 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c14c2129-130d-4e74-a0f2-6d0395bb050f")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 91.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e62f69-10e0-4150-99c0-531867e513f7")
 	)
 	(wire
 		(pts
@@ -2768,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 80.01) (xy 91.44 80.01)
+			(xy 73.66 80.01) (xy 80.01 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2788,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 107.95) (xy 109.22 107.95)
+			(xy 73.66 107.95) (xy 80.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2805,6 +2869,16 @@
 			(type default)
 		)
 		(uuid "d276b79a-6e5f-473b-b7c3-1f50174afabe")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46602dd-acb8-4d37-af9c-95df406d9735")
 	)
 	(wire
 		(pts
@@ -2895,6 +2969,26 @@
 			(type default)
 		)
 		(uuid "e71e1a77-c24b-4e5d-88e9-6382bf1abc9a")
+	)
+	(wire
+		(pts
+			(xy 199.39 80.01) (xy 200.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96b9796-ef51-4803-a810-d448d0556c63")
+	)
+	(wire
+		(pts
+			(xy 80.01 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eab110e5-ad86-4db4-9842-39a7c9b6c67d")
 	)
 	(wire
 		(pts
@@ -3869,6 +3963,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 205.74 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49cbf30d-5713-4813-9167-f61a419cb087")
+		(property "Reference" "J10"
+			(at 208.28 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74650094"
+			(at 208.28 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650094_THR"
+			(at 205.74 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5e22495-cb2f-450b-9664-a51b4909a581")
+		)
+		(instances
+			(project "PFC"
+				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:C3M0030090K")
 		(at 180.34 101.6 0)
 		(unit 1)
@@ -4042,6 +4215,88 @@
 			(project "PFC"
 				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "542c58c3-9cea-475c-b4b0-0abbaf51d84f")
+		(property "Reference" "C17"
+			(at 194.818 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MKP1848C65090JY"
+			(at 196.85 95.2499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:MKP1848C64590JY5_VIS"
+			(at 194.0052 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d33ea92-e85c-4205-a2f5-9bf7b901f0f3")
+		)
+		(pin "2"
+			(uuid "5ed0c2ee-55e2-45af-85cf-660e302581d0")
+		)
+		(instances
+			(project "PFC"
+				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4296,6 +4551,167 @@
 			(project "PFC"
 				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 205.74 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7acca394-9a30-41db-b4d6-3c29d6d436f4")
+		(property "Reference" "J9"
+			(at 208.28 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74650094"
+			(at 208.28 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Wuerth:Wuerth_REDCUBE-THR_WP-THRBU_74650094_THR"
+			(at 205.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83a4759f-0d52-493a-8025-9a3e21840419")
+		)
+		(instances
+			(project "PFC"
+				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88f77162-c748-4f9e-be68-fea261002229")
+		(property "Reference" "C18"
+			(at 75.438 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MKS4O141006G00KSSD"
+			(at 77.47 95.2499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W17.0mm_P27.50mm_MKS4"
+			(at 74.6252 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae617e18-e5a6-4e3f-a568-757fe7707c21")
+		)
+		(pin "1"
+			(uuid "ec430c94-5b03-4e28-a72b-058cc9297f6e")
+		)
+		(instances
+			(project "PFC"
+				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4864,87 +5280,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 73.66 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d04cfd2a-61ab-4e49-bb9d-c6a9794747c8")
-		(property "Reference" "C1"
-			(at 76.962 92.964 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 76.962 95.504 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.6252 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 73.66 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8adbc3a5-42d1-4306-be36-03a1cbe07160")
-		)
-		(pin "1"
-			(uuid "1e506d80-b2d7-4ef7-b6d1-929b418603ee")
-		)
-		(instances
-			(project "PFC"
-				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 107.95 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -5020,88 +5355,6 @@
 			(project "PFC"
 				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 193.04 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d55f227b-32bf-466d-8862-fc5c9b57999b")
-		(property "Reference" "C2"
-			(at 196.85 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C"
-			(at 196.85 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.0052 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 193.04 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "669ac8e8-d6a2-43e4-a576-3a1490e5cbdc")
-		)
-		(pin "1"
-			(uuid "2e4422e4-dae4-469d-8416-bf62d315b382")
-		)
-		(instances
-			(project "PFC"
-				(path "/9a4457e8-cc73-4b75-ac20-82cc64952613/6eb0d11a-b8cc-4b9f-9b90-475ada58642f"
-					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5267,7 +5520,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 193.04 78.74 0)
+		(at 199.39 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5278,7 +5531,7 @@
 		(fields_autoplaced yes)
 		(uuid "f22b7bd7-96b0-470d-899f-1125b15d07ae")
 		(property "Reference" "#PWR04"
-			(at 193.04 82.55 0)
+			(at 199.39 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +5542,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 193.04 73.66 0)
+			(at 199.39 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5299,7 +5552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 78.74 0)
+			(at 199.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,7 +5563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 78.74 0)
+			(at 199.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 193.04 78.74 0)
+			(at 199.39 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

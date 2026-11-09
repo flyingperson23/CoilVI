@@ -48726,14 +48726,6 @@
 		(uuid "b70b1e49-db2b-4142-b176-0c26b3460aa0")
 	)
 	(segment
-		(start 193.55 122)
-		(end 193.55 123.2)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "Net-(D13-K)")
-		(uuid "e4f32775-c928-4ea9-b1ce-bfb6a33ec176")
-	)
-	(segment
 		(start 186.7 130.05)
 		(end 186.95 130.05)
 		(width 0.5)

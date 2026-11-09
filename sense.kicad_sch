@@ -2209,7 +2209,7 @@
 	)
 	(text "16 mV/A"
 		(exclude_from_sim no)
-		(at 151.638 51.308 0)
+		(at 151.638 51.816 0)
 		(effects
 			(font
 				(size 1.27 1.27)
